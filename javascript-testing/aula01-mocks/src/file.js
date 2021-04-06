@@ -16,8 +16,7 @@ class File {
   }
 
   static async getFileContent(filePath) {
-    const fileName = join(__dirname, filePath);
-    return(await readFile(fileName)).toString('utf-8');
+    return(await readFile(filePath)).toString('utf-8');
   }
 
   static isValid(csvString, options = DEFAULT_OPTION) {
@@ -30,7 +29,10 @@ class File {
       }
     }
 
-    const isContentLengthAccepted = (fileWithoutHeader.length > 0 && fileWithoutHeader.length <= options.maxLines)
+    const isContentLengthAccepted = (
+      fileWithoutHeader.length > 0 && 
+      fileWithoutHeader.length <= options.maxLines
+    )
     if (!isContentLengthAccepted) {
       return {
         error: error.FILE_LENGTH_ERROR_MESSAGE,
@@ -41,3 +43,5 @@ class File {
     return { valid: true }
   }
 }
+
+module.exports = File
