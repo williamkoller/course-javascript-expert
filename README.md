@@ -1,11 +1,14 @@
-# Javascript Expert taught by Erick Wendel
+<h1 align="center">
+  Javascript Expert taught by Erick Wendel
+</h1>
+
 ### Module 1
 
-[x] Introduction to the course
+- [x] Introduction to the course
 
 ### Module 2
 
-[ ] Javascript Testing
+- [ ] Javascript Testing
 > Working with Mocks
 
 > Working with Stubs
