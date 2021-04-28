@@ -1,5 +1,5 @@
 <h1 align="center">
-  Javascript Expert taught by Erick Wendel
+  Javascript Expert
 </h1>
 
 ### Module 1
