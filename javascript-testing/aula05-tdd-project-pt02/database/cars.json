@@ -1,0 +1,16 @@
+[
+  {
+    "id": "a84eb08e-9b0f-452b-9e6d-dee663d3ce69",
+    "name": "Fortwo",
+    "releaseYear": 2020,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "c3c4712b-7a8e-4d9e-a6bb-74cdf36cb309",
+    "name": "Focus",
+    "releaseYear": 2020,
+    "available": true,
+    "gasAvailable": true
+  }
+]
